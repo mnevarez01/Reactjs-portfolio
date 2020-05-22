@@ -1,14 +1,20 @@
-import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
+import { BrowserRouter as Router, Route } from 'react-route-dom';
+// import logo from './logo.svg';
 import './App.css';
+import Home from './component/Home'
+import Contact from './component/Contact'
+import Portfolio from './component/Portfolio'
+import Navbar from './component/Navbar'
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <Home />
         </p>
         <a
           className="App-link"
@@ -19,6 +25,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <body>
+        <Home />
+      </body>
     </div>
   );
 }
