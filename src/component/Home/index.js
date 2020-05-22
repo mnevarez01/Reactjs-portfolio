@@ -1,10 +1,10 @@
 import React from "react";
-import "./style.css";
+// import "./style.css";
 
 function Footer() {
   return (
     <footer className="footer">
-      <span>Wikipedia Searcher</span>
+      <span>Maria Nevarez</span>
     </footer>
   );
 }
