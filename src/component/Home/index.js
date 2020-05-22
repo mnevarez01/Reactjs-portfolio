@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 // import "./style.css";
 
-function Footer() {
+const Home = () => {
+
+
+
   return (
-    <footer className="footer">
-      <span>Maria Nevarez</span>
-    </footer>
+    <div className="container">
+      <img src='../assests/portfolio.jpg'></img>
+      <p>
+        "But I must explain to you how all this mistaken idea of denouncing pleasure and praising 
+        pain was born and I will give you a complete account of the system, and expound the actual teachings of
+         the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself,
+          because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.
+        
+      </p>
+
+    </div>
   );
 }
 
-export default Footer;
+export default Home;
