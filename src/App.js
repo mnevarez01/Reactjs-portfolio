@@ -7,7 +7,7 @@ import Home from './component/Home'
 import Contact from './component/Contact'
 import Portfolio from './component/Portfolio'
 import Navbar from './component/Navbar'
-// import Wrapper from "./component/Wrapper";
+import Background from "./component/Background";
 import BurgerContext from "./utils/BurgerContext"
 
 
@@ -27,6 +27,7 @@ const App = () => {
         <BurgerContext.Provider value={burger}>
           <Navbar />
         </BurgerContext.Provider>
+        <Background />
         {/* <Wrapper>
           <Route exact path="/" />
           <Route exact path="/portfolio" />
