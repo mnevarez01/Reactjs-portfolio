@@ -1,23 +1,23 @@
-import React, { useEffect } from "react";
+import React from "react";
 // import "./style.css";
 
-const Home = () => {
-
-
+const HomePage = () => {
 
   return (
     <div className="container">
-      <img src='../assests/portfolio.jpg'></img>
+      <h3>Maria Nevarez</h3>
       <p>
-        "But I must explain to you how all this mistaken idea of denouncing pleasure and praising 
-        pain was born and I will give you a complete account of the system, and expound the actual teachings of
-         the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself,
-          because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.
+      I recently acquired a certification in Full Stack Web Development from the University of
+                Denver with skills in JavaScript, CSS, React.js, MongoDB, Nodejs., and MySQL. Known as problem-solver,
+                task-orientated and great collaborator. I aim to create a great user experience by creating great
+                user-driven websites as well as using back-end servers to optimize use. Recent projects have led me to
+                create a user-friendly app to research weather in multiple cities. The fast pace of the certification
+                process has set me up to deal with the fast and ever-changing technology field. Excited to use my time
+                management, dedication and eye for detail to ensure that creating an excellent user experience.
         
       </p>
-
     </div>
   );
 }
 
-export default Home;
+export default HomePage;

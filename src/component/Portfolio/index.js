@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function Home() {
   return (
-    <div>This will be the Home page</div>
+    <div>This will be the Portfolio page</div>
   )
 }
 export default Home;
