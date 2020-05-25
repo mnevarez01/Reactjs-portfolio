@@ -7,6 +7,8 @@ import Home from './component/Home'
 import Contact from './component/Contact'
 import Portfolio from './component/Portfolio'
 import Navbar from './component/Navbar'
+import HeaderName from "./component/Header"
+
 import Background from "./component/Background";
 import BurgerContext from "./utils/BurgerContext"
 
@@ -33,6 +35,7 @@ const App = () => {
           <Route exact path="/portfolio" />
           <Route exact path="/Contact" />
         </Wrapper> */}
+        <HeaderName />
         <Home />
         <Portfolio />
         <Contact />

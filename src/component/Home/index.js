@@ -1,12 +1,11 @@
 import React from "react";
-// import "./style.css";
+import "./style.css";
 
 const HomePage = () => {
 
   return (
     <div className="container">
-      <h3>Maria Nevarez</h3>
-      <p>
+      <p className="textContainer">
       I recently acquired a certification in Full Stack Web Development from the University of
                 Denver with skills in JavaScript, CSS, React.js, MongoDB, Nodejs., and MySQL. Known as problem-solver,
                 task-orientated and great collaborator. I aim to create a great user experience by creating great
