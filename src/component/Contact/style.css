@@ -1,9 +1,10 @@
-.container{
+.ContactPage{
   width: 80%;
   margin-left: 10%;
-  border-color: #e479ef;
+  border-color: #2a3b7e;
   border-style: dashed;
   padding: 10px;
   font-size: 25px;
   text-align: center;
+  margin-bottom: 20px ;
 }

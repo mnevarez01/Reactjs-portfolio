@@ -6,15 +6,12 @@ import Contact from './component/Contact'
 import Portfolio from './component/Portfolio'
 import Navbar from './component/Navbar'
 import HeaderName from "./component/Header"
-
-
-import Background from "./component/Background";
 import BurgerContext from "./utils/BurgerContext"
 
 
 
 const App = () => {
-  document.title = "Portfolio Testing"
+  document.title = "Maria Nevarez"
   const [burger, setburgerState] = useState({
     open: "false",
     options: [],
@@ -30,7 +27,7 @@ const App = () => {
         <BurgerContext.Provider value={burger}>
           <Navbar />
         </BurgerContext.Provider>
-        <Background />
+        {/* <Background /> */}
         {/* <Wrapper>
           <Route exact path="/" />
           <Route exact path="/portfolio" />
@@ -38,7 +35,6 @@ const App = () => {
         </Wrapper> */}
         <HeaderName />
         <Home />
-
         <Portfolio />
         <Contact />
       </Router>
