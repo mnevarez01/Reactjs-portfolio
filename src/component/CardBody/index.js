@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import PageContext from '../../utils/PortfolioContext'
+import PageContext from '../../utils/PageContext'
 
 const CardBody = () => {
   const { description } = useContext(PageContext)

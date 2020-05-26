@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import CardContainer from '../CardContainer'
 
-function Home() {
+function Portfolio() {
   return (
-    <div>This will be the Portfolio page</div>
+    <>
+      <div>This will be the Portfolio page</div>
+      <CardContainer />
+    </>
   )
 }
-export default Home;
+export default Portfolio;

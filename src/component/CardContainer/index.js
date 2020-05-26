@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from "../Card"
 
-const CardContaier = () => {
+const CardContainer = () => {
   return (
     <div>
       <Card />
@@ -10,4 +10,4 @@ const CardContaier = () => {
   )
 }
 
-export default CardContaier;
+export default CardContainer;

@@ -3,7 +3,7 @@ import CardBody from '../CardBody'
 import CardImg from '../CardImage'
 import CardHeading from '../CardHeading'
 import './style.css'
-import PageContext from '../../utils/PortfolioContext'
+import PageContext from '../../utils/PageContext'
 
 const Card = () => {
   const { image, handleClick } = useContext(PageContext)
