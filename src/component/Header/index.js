@@ -4,7 +4,10 @@ import './style.css'
 const HeaderName = () => {
 
   return (
-    <h2 className="header">Maria Nevarez</h2>
+    <>
+      <h2 className="header">Maria Nevarez</h2>
+      <h3 className="header2">Full Stack Web Developer</h3>
+    </>
   )
 }
 
