@@ -15,7 +15,7 @@ function Portfolio() {
         <img className='Image' src={pic1} alt='Alewery'
           onMouseEnter={() => setIsShown(true)}
           onMouseLeave={() => setIsShown(false)} />
-        {isShown && (<p>A site that contains all beers from your local breweries! To all breweries have your beers accessible to all!</p>)}
+        {isShown && (<p className='Hover'>A site that contains all beers from your local breweries! To all breweries have your beers accessible to all!</p>)}
 
       </div>
       <div href="https://mnevarez01.github.io/tmtg/">
