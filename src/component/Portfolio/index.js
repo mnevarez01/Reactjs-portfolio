@@ -10,7 +10,7 @@ function Portfolio() {
 
   return (
     <>
-      <div onClick={window.open('https://mighty-depths-48025.herokuapp.com/')} href='https://mighty-depths-48025.herokuapp.com/'>
+      <div onClick={() => window.open('https://mighty-depths-48025.herokuapp.com/')} href='https://mighty-depths-48025.herokuapp.com/'>
         <h2 >Alewery</h2>
         <img className='Image' src={pic1} alt='Alewery'
           onMouseEnter={() => setIsShown(true)}

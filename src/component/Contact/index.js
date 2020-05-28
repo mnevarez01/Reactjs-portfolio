@@ -4,26 +4,27 @@ import './style.css'
 const Contact = () => {
   return (
     <div className="ContactPage">
-      <h3>Please send an reach out!</h3>
+      <h3>Please reach out!</h3>
 
-      <form className="InputField">
-        <label>
-          Name:
-          <input type="text" name="name" />
-        </label>
+      <form>
+        <div className="form-group">
+          <label for="exampleFormControlInput1">Name</label>
+          <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Name" />
+        </div>
         <hr />
-        <label>
-          Email:
-          <input type="text" name="email" />
-        </label>
+        <div className="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+        </div>
         <hr />
-        <label>
-          Message:
-          <input type="text" name="message" />
-        </label>
+
+        <div className="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Leave a Message!"></textarea>
+        </div>
+        <button type="submit" className="btn btn-outline-dark Submit">Send</button>
 
       </form>
-
 
     </div>
 
