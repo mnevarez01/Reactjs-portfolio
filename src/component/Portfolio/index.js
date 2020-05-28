@@ -16,7 +16,7 @@ function Portfolio() {
           onMouseEnter={() => setIsShown(true)}
           onMouseLeave={() => setIsShown(false)} />
         {isShown && (
-          <div className='Hover'>
+          <div className='Hover1'>
             <h3>Description: </h3>
             <p>  A site that contains all beers from your local breweries! To all breweries have your beers accessible to all!</p>
           </div>
@@ -29,7 +29,7 @@ function Portfolio() {
           onMouseEnter={() => setIsShown(true)}
           onMouseLeave={() => setIsShown(false)} />
         {isShown && (
-          <div className='Hover'>
+          <div className='Hover2'>
             <h3>Description: </h3>
             <p> While facing hard times building a website that is interactive and distracting to the mind.</p>
           </div>
@@ -41,7 +41,7 @@ function Portfolio() {
           onMouseEnter={() => setIsShown(true)}
           onMouseLeave={() => setIsShown(false)} />
         {isShown && (
-          <div className='Hover'>
+          <div className='Hover3'>
             <h3>Description: </h3>
             <p>Using the weather API you are able to look for weather for any city and have your searches saved.</p>
           </div>
